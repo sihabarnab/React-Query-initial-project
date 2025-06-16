@@ -31,38 +31,43 @@ const ProductList = ({ onSelect }) => {
     );
 
   return (
-    <div className="flex flex-col justify-center items-center w-3/5">
-      <h2 className="text-3xl font-semibold mb-6">Product List</h2>
-      <ul className="flex flex-wrap justify-center gap-6">
+    <div className="w-full">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 w-full">
         {products.data &&
           products.data.map((product) => (
-            <li
+            <div
               key={product.id}
-              className="flex flex-col items-center border rounded-md shadow w-[300px] hover:shadow-lg transition"
+              className="bg-gradient-to-br from-white via-blue-50 to-indigo-50 rounded-3xl shadow-lg border border-blue-100 p-3 flex flex-col items-center hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 w-full"
             >
-              <img
-                src={product.thumbnail}
-                alt={product.name}
-                className="object-cover w-96 h-64 rounded-t-md"
-              />
-              <div className="p-4 flex flex-col items-center">
-                <p className="text-lg font-medium text-center">
-                  {product.title}
-                </p>
-                <button
-                  className="mt-2 px-4 py-1 bg-blue-500 text-white rounded hover:bg-blue-600"
-                  onClick={() => onSelect(product.id)}
-                >
-                  Details
-                </button>
+              <div className="w-24 h-24 mb-4 rounded-full border-4 border-blue-200 shadow-lg overflow-hidden bg-white flex items-center justify-center">
+                <img
+                  src={product.thumbnail}
+                  alt={product.title}
+                  className="object-cover w-full h-full"
+                />
               </div>
-            </li>
+              <h3 className="text-lg font-extrabold text-indigo-700 mb-1 text-center tracking-tight">
+                {product.title || "No Title"}
+              </h3>
+              <p className="text-gray-500 text-sm mb-3 text-center line-clamp-2">
+                {product.description || "No description available."}
+              </p>
+              <span className="text-blue-600 font-bold mb-3 text-lg">
+                {product.price ? `$ ${product.price}` : ""}
+              </span>
+              <button
+                className="mt-auto px-6 py-2 bg-gradient-to-r from-blue-500 to-indigo-500 text-white font-semibold rounded-full shadow hover:from-blue-600 hover:to-indigo-600 hover:scale-105 transition"
+                onClick={() => onSelect(product.id)}
+              >
+                Details
+              </button>
+            </div>
           ))}
-      </ul>
-      <div className="flex">
+      </div>
+      <div className="flex mt-8 justify-center space-x-4">
         {products.prev && (
           <button
-            className="p-1 mx-1 bg-gray-100 border cursor-pointer rounded-sm"
+            className="px-4 py-2 bg-white border border-blue-200 rounded-lg shadow hover:bg-blue-100 text-blue-700 font-semibold transition"
             onClick={() => setPage(products.prev)}
           >
             Prev
@@ -70,7 +75,7 @@ const ProductList = ({ onSelect }) => {
         )}
         {products.next && (
           <button
-            className="p-1 mx-1 bg-gray-100 border cursor-pointer rounded-sm"
+            className="px-4 py-2 bg-white border border-blue-200 rounded-lg shadow hover:bg-blue-100 text-blue-700 font-semibold transition"
             onClick={() => setPage(products.next)}
           >
             Next
