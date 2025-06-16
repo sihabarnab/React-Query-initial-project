@@ -1,0 +1,548 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "Powder Canister",
+      "description": "High-quality powder canister for beauty products",
+      "price": 999.99,
+      "rating": 4.8,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/powder-canister/thumbnail.webp"
+    },
+    {
+      "id": "2",
+      "title": "Red Lipstick",
+      "description": "Vibrant red lipstick for a bold look",
+      "price": 899.99,
+      "rating": 4.7,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/beauty/red-lipstick/thumbnail.webp"
+    },
+    {
+      "id": "3",
+      "title": "Beauty Product 3",
+      "description": "Premium beauty product for daily use",
+      "price": 799.99,
+      "rating": 4.6,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/fragrances/chanel-coco-noir-eau-de/thumbnail.webp"
+    },
+    {
+      "id": "4",
+      "title": "Beauty Product 4",
+      "description": "Essential beauty product for your routine",
+      "price": 749.99,
+      "rating": 4.5,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/fragrances/chanel-coco-noir-eau-de/thumbnail.webp"
+    },
+    {
+      "id": "5",
+      "title": "Beauty Product 5",
+      "description": "Affordable beauty product with great features",
+      "price": 699.99,
+      "rating": 4.4,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/fragrances/chanel-coco-noir-eau-de/thumbnail.webp"
+    },
+    {
+      "id": "21",
+      "title": "Beauty Product 21",
+      "description": "Unique beauty product with innovative features",
+      "price": 499.99,
+      "rating": 4.1,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/fragrances/chanel-coco-noir-eau-de/thumbnail.webp"
+    },
+    {
+      "id": "22",
+      "title": "Beauty Product 22",
+      "description": "Sustainable beauty product with modular design",
+      "price": 599.99,
+      "rating": 4,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/fragrances/chanel-coco-noir-eau-de/thumbnail.webp"
+    },
+    {
+      "id": "23",
+      "title": "Beauty Product 23",
+      "description": "Beauty product with dual features and high performance",
+      "price": 799.99,
+      "rating": 4.5,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/fragrances/chanel-coco-noir-eau-de/thumbnail.webp"
+    },
+    {
+      "id": "24",
+      "title": "Beauty Product 24",
+      "description": "Ultimate beauty product with top-tier specs",
+      "price": 999.99,
+      "rating": 4.9,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/fragrances/chanel-coco-noir-eau-de/thumbnail.webp"
+    },
+    {
+      "id": "25",
+      "title": "Beauty Product 25",
+      "description": "Foldable beauty product with iconic design",
+      "price": 1399.99,
+      "rating": 4.6,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/fragrances/chanel-coco-noir-eau-de/thumbnail.webp"
+    },
+    {
+      "id": "26",
+      "title": "Beauty Product 26",
+      "description": "Compact beauty product with flagship features",
+      "price": 999.99,
+      "rating": 4.7,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/fragrances/chanel-coco-noir-eau-de/thumbnail.webp"
+    },
+    {
+      "id": "27",
+      "title": "Beauty Product 27",
+      "description": "Affordable beauty product with powerful performance",
+      "price": 429.99,
+      "rating": 4.5,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/fragrances/chanel-coco-noir-eau-de/thumbnail.webp"
+    },
+    {
+      "id": "28",
+      "title": "Beauty Product 28",
+      "description": "Budget-friendly beauty product with great features",
+      "price": 349.99,
+      "rating": 4.4,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/fragrances/chanel-coco-noir-eau-de/thumbnail.webp"
+    },
+    {
+      "id": "29",
+      "title": "Beauty Product 29",
+      "description": "Mid-range beauty product with excellent features",
+      "price": 399.99,
+      "rating": 4.3,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/fragrances/chanel-coco-noir-eau-de/thumbnail.webp"
+    },
+    {
+      "id": "30",
+      "title": "Beauty Product 30",
+      "description": "Affordable beauty product with long-lasting effect",
+      "price": 299.99,
+      "rating": 4,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/fragrances/chanel-coco-noir-eau-de/thumbnail.webp"
+    },
+    {
+      "id": "31",
+      "title": "Ice Cream",
+      "description": "Delicious and creamy ice cream",
+      "price": 199.99,
+      "rating": 4.5,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/ice-cream/thumbnail.webp"
+    },
+    {
+      "id": "32",
+      "title": "Juice",
+      "description": "Fresh and healthy juice",
+      "price": 149.99,
+      "rating": 4.3,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/juice/thumbnail.webp"
+    },
+    {
+      "id": "33",
+      "title": "Kiwi",
+      "description": "Organic kiwi fruit",
+      "price": 99.99,
+      "rating": 4.7,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/kiwi/thumbnail.webp"
+    },
+    {
+      "id": "34",
+      "title": "Mango",
+      "description": "Fresh mangoes from the farm",
+      "price": 129.99,
+      "rating": 4.6,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/mango/thumbnail.webp"
+    },
+    {
+      "id": "35",
+      "title": "Orange Juice",
+      "description": "Refreshing orange juice",
+      "price": 119.99,
+      "rating": 4.4,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/orange-juice/thumbnail.webp"
+    },
+    {
+      "id": "36",
+      "title": "Pineapple",
+      "description": "Sweet and tangy pineapple",
+      "price": 139.99,
+      "rating": 4.5,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/pineapple/thumbnail.webp"
+    },
+    {
+      "id": "37",
+      "title": "Strawberries",
+      "description": "Juicy strawberries",
+      "price": 159.99,
+      "rating": 4.6,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/strawberries/thumbnail.webp"
+    },
+    {
+      "id": "38",
+      "title": "Tomato",
+      "description": "Fresh tomatoes",
+      "price": 49.99,
+      "rating": 4.2,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/tomato/thumbnail.webp"
+    },
+    {
+      "id": "39",
+      "title": "Watermelon",
+      "description": "Refreshing watermelon slices",
+      "price": 199.99,
+      "rating": 4.8,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/watermelon/thumbnail.webp"
+    },
+    {
+      "id": "40",
+      "title": "Yogurt",
+      "description": "Creamy yogurt with fruits",
+      "price": 89.99,
+      "rating": 4.1,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/yogurt/thumbnail.webp"
+    },
+    {
+      "id": "41",
+      "title": "Banana",
+      "description": "Ripe bananas",
+      "price": 39.99,
+      "rating": 4.3,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/banana/thumbnail.webp"
+    },
+    {
+      "id": "42",
+      "title": "Blueberries",
+      "description": "Fresh blueberries",
+      "price": 149.99,
+      "rating": 4.5,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/blueberries/thumbnail.webp"
+    },
+    {
+      "id": "43",
+      "title": "Broccoli",
+      "description": "Organic broccoli",
+      "price": 89.99,
+      "rating": 4.2,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/broccoli/thumbnail.webp"
+    },
+    {
+      "id": "44",
+      "title": "Carrot",
+      "description": "Fresh carrots",
+      "price": 49.99,
+      "rating": 4,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/carrot/thumbnail.webp"
+    },
+    {
+      "id": "45",
+      "title": "Cherry",
+      "description": "Sweet cherries",
+      "price": 199.99,
+      "rating": 4.7,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/cherry/thumbnail.webp"
+    },
+    {
+      "id": "46",
+      "title": "Cucumber",
+      "description": "Fresh cucumbers",
+      "price": 29.99,
+      "rating": 4.1,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/cucumber/thumbnail.webp"
+    },
+    {
+      "id": "47",
+      "title": "Grapes",
+      "description": "Seedless grapes",
+      "price": 99.99,
+      "rating": 4.4,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/grapes/thumbnail.webp"
+    },
+    {
+      "id": "48",
+      "title": "Lemon",
+      "description": "Fresh lemons",
+      "price": 29.99,
+      "rating": 4,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/lemon/thumbnail.webp"
+    },
+    {
+      "id": "49",
+      "title": "Lettuce",
+      "description": "Crisp lettuce",
+      "price": 19.99,
+      "rating": 4.3,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/lettuce/thumbnail.webp"
+    },
+    {
+      "id": "50",
+      "title": "Peach",
+      "description": "Juicy peaches",
+      "price": 149.99,
+      "rating": 4.6,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/peach/thumbnail.webp"
+    },
+    {
+      "id": "51",
+      "title": "Pear",
+      "description": "Fresh pears",
+      "price": 129.99,
+      "rating": 4.5,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/pear/thumbnail.webp"
+    },
+    {
+      "id": "52",
+      "title": "Pepper",
+      "description": "Bell peppers",
+      "price": 59.99,
+      "rating": 4.2,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/pepper/thumbnail.webp"
+    },
+    {
+      "id": "53",
+      "title": "Potato",
+      "description": "Fresh potatoes",
+      "price": 39.99,
+      "rating": 4.1,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/potato/thumbnail.webp"
+    },
+    {
+      "id": "54",
+      "title": "Pumpkin",
+      "description": "Organic pumpkin",
+      "price": 79.99,
+      "rating": 4.3,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/pumpkin/thumbnail.webp"
+    },
+    {
+      "id": "55",
+      "title": "Radish",
+      "description": "Fresh radishes",
+      "price": 29.99,
+      "rating": 4,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/radish/thumbnail.webp"
+    },
+    {
+      "id": "56",
+      "title": "Spinach",
+      "description": "Fresh spinach",
+      "price": 19.99,
+      "rating": 4.2,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/spinach/thumbnail.webp"
+    },
+    {
+      "id": "57",
+      "title": "Sweet Corn",
+      "description": "Sweet corn on the cob",
+      "price": 49.99,
+      "rating": 4.4,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/sweet-corn/thumbnail.webp"
+    },
+    {
+      "id": "58",
+      "title": "Tomato Sauce",
+      "description": "Rich tomato sauce",
+      "price": 79.99,
+      "rating": 4.3,
+      "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/tomato-sauce/thumbnail.webp"
+    },
+    {
+      "id": "4ac4f97c-5a3e-471b-bcf4-7ab3c00490f7",
+      "title": "bed",
+      "description": "A comfier bed",
+      "price": 20000,
+      "rating": 5,
+      "thumbnail": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YmVkfGVufDB8fDB8fHww"
+    },
+    {
+      "id": "9a3908d0-f966-4e8e-bb54-26179e5391fc",
+      "title": "iPhone",
+      "description": "Brand new iphone 16",
+      "price": 1000,
+      "rating": 5,
+      "thumbnail": "https://i5.walmartimages.com/seo/Pre-Owned-Apple-iPhone-X-256GB-Factory-Unlocked-Smartphone-Refurbished-Good_9b5ec8b2-9665-463b-adc5-64829ba72da6.1b496e5a8fcee76fdad69bae12b54745.jpeg"
+    },
+    {
+      "id": "9b7d30bd-b612-4626-abdc-6a8a6428eb5a",
+      "title": "ewe",
+      "description": "de",
+      "price": 1,
+      "rating": 5,
+      "thumbnail": "e"
+    },
+    {
+      "id": "d7db0ea5-2927-49c4-9cc8-fd1e8579d4f4",
+      "title": "ewe",
+      "description": "de",
+      "price": 1,
+      "rating": 5,
+      "thumbnail": "e"
+    },
+    {
+      "id": "4d133a6a-24ac-4326-96de-f1a2f0aebb3e",
+      "title": "ewe",
+      "description": "de",
+      "price": 1,
+      "rating": 5,
+      "thumbnail": "e"
+    },
+    {
+      "id": "27521ff3-5e42-4251-a4aa-252bca10a0e8",
+      "title": "ewe",
+      "description": "de",
+      "price": 1,
+      "rating": 5,
+      "thumbnail": "e"
+    },
+    {
+      "id": "7dd1d300-6976-41ef-9c78-de9f4f18edf9",
+      "title": "ewe",
+      "description": "de",
+      "price": 1,
+      "rating": 5,
+      "thumbnail": "e"
+    },
+    {
+      "id": "09008d00-201a-430e-b955-f8b061575e08",
+      "title": "ewe",
+      "description": "de",
+      "price": 1,
+      "rating": 5,
+      "thumbnail": "e"
+    },
+    {
+      "id": "8231f820-290b-4c47-9555-2453c69d9df2",
+      "title": "",
+      "description": "",
+      "price": 0,
+      "rating": 5,
+      "thumbnail": ""
+    },
+    {
+      "id": "7b1c3867-5b7b-4b8c-85cd-5dab8060b776",
+      "title": "qqqqqqqq",
+      "description": "wwwwwwww",
+      "price": 1,
+      "rating": 5,
+      "thumbnail": "2e23eo"
+    },
+    {
+      "id": "65e53cd9-64a3-4dad-8788-c91691ee77ee",
+      "title": "qqqqqqqq",
+      "description": "wwwwwwww",
+      "price": 1,
+      "rating": 5,
+      "thumbnail": "2e23eo"
+    },
+    {
+      "id": "46d1d455-93ef-401f-b8a6-cac49fc442b1",
+      "title": "testttttttt",
+      "description": "hhhhhhhh",
+      "price": 1,
+      "rating": 5,
+      "thumbnail": "https://i5.walmartimages.com/seo/Pre-Owned-Apple-iPhone-X-256GB-Factory-Unlocked-Smartphone-Refurbished-Good_9b5ec8b2-9665-463b-adc5-64829ba72da6.1b496e5a8fcee76fdad69bae12b54745.jpeg"
+    },
+    {
+      "id": "817e56a3-623b-47a4-804f-f43d9fd91f77",
+      "title": "testttttttt",
+      "description": "hhhhhhhh",
+      "price": 1,
+      "rating": 5,
+      "thumbnail": "https://i5.walmartimages.com/seo/Pre-Owned-Apple-iPhone-X-256GB-Factory-Unlocked-Smartphone-Refurbished-Good_9b5ec8b2-9665-463b-adc5-64829ba72da6.1b496e5a8fcee76fdad69bae12b54745.jpeg"
+    },
+    {
+      "id": "2ad8e088-fad2-4576-90ed-b9ee304c2cae",
+      "title": "testttttttt",
+      "description": "hhhhhhhh",
+      "price": 1,
+      "rating": 5,
+      "thumbnail": "https://i5.walmartimages.com/seo/Pre-Owned-Apple-iPhone-X-256GB-Factory-Unlocked-Smartphone-Refurbished-Good_9b5ec8b2-9665-463b-adc5-64829ba72da6.1b496e5a8fcee76fdad69bae12b54745.jpeg"
+    },
+    {
+      "id": "d9f85ad0-0db1-4f44-be02-2f9ee0837344",
+      "title": "testttttttt",
+      "description": "hhhhhhhh",
+      "price": 1,
+      "rating": 5,
+      "thumbnail": "https://i5.walmartimages.com/seo/Pre-Owned-Apple-iPhone-X-256GB-Factory-Unlocked-Smartphone-Refurbished-Good_9b5ec8b2-9665-463b-adc5-64829ba72da6.1b496e5a8fcee76fdad69bae12b54745.jpeg"
+    },
+    {
+      "id": "f66c4d24-d998-48e3-825e-516a658edb50",
+      "title": "testttttttt",
+      "description": "hhhhhhhh",
+      "price": 1,
+      "rating": 5,
+      "thumbnail": "https://i5.walmartimages.com/seo/Pre-Owned-Apple-iPhone-X-256GB-Factory-Unlocked-Smartphone-Refurbished-Good_9b5ec8b2-9665-463b-adc5-64829ba72da6.1b496e5a8fcee76fdad69bae12b54745.jpeg"
+    },
+    {
+      "id": "fa6fc37c-5edc-4970-ae33-711204e46041",
+      "title": "testttttttt",
+      "description": "hhhhhhhh",
+      "price": 1,
+      "rating": 5,
+      "thumbnail": "https://i5.walmartimages.com/seo/Pre-Owned-Apple-iPhone-X-256GB-Factory-Unlocked-Smartphone-Refurbished-Good_9b5ec8b2-9665-463b-adc5-64829ba72da6.1b496e5a8fcee76fdad69bae12b54745.jpeg"
+    },
+    {
+      "id": "9da39451-0f9b-433e-b326-851ef56ad65c",
+      "title": "testttttttt",
+      "description": "hhhhhhhh",
+      "price": 1,
+      "rating": 5,
+      "thumbnail": "https://i5.walmartimages.com/seo/Pre-Owned-Apple-iPhone-X-256GB-Factory-Unlocked-Smartphone-Refurbished-Good_9b5ec8b2-9665-463b-adc5-64829ba72da6.1b496e5a8fcee76fdad69bae12b54745.jpeg"
+    },
+    {
+      "id": "59252bd3-2e80-4511-be1f-6bdc8de9cb89",
+      "title": "testttttttt",
+      "description": "hhhhhhhh",
+      "price": 1,
+      "rating": 5,
+      "thumbnail": "https://i5.walmartimages.com/seo/Pre-Owned-Apple-iPhone-X-256GB-Factory-Unlocked-Smartphone-Refurbished-Good_9b5ec8b2-9665-463b-adc5-64829ba72da6.1b496e5a8fcee76fdad69bae12b54745.jpeg"
+    },
+    {
+      "id": "ae3444dd-402d-4870-b619-90361e8ec696",
+      "title": "testttttttt",
+      "description": "hhhhhhhh",
+      "price": 1,
+      "rating": 5,
+      "thumbnail": "https://i5.walmartimages.com/seo/Pre-Owned-Apple-iPhone-X-256GB-Factory-Unlocked-Smartphone-Refurbished-Good_9b5ec8b2-9665-463b-adc5-64829ba72da6.1b496e5a8fcee76fdad69bae12b54745.jpeg"
+    },
+    {
+      "id": "b96a9a48-6480-46cf-8c18-0deda0dd8133",
+      "title": "testttttttt",
+      "description": "hhhhhhhh",
+      "price": 1,
+      "rating": 5,
+      "thumbnail": "https://i5.walmartimages.com/seo/Pre-Owned-Apple-iPhone-X-256GB-Factory-Unlocked-Smartphone-Refurbished-Good_9b5ec8b2-9665-463b-adc5-64829ba72da6.1b496e5a8fcee76fdad69bae12b54745.jpeg"
+    },
+    {
+      "id": "01cfe402-e70e-45d1-ac67-9273751eaba8",
+      "title": "testttttttt",
+      "description": "hhhhhhhh",
+      "price": 1,
+      "rating": 5,
+      "thumbnail": "https://i5.walmartimages.com/seo/Pre-Owned-Apple-iPhone-X-256GB-Factory-Unlocked-Smartphone-Refurbished-Good_9b5ec8b2-9665-463b-adc5-64829ba72da6.1b496e5a8fcee76fdad69bae12b54745.jpeg"
+    },
+    {
+      "id": "b7c30944-767d-4855-a14b-9a6e431d2f1b",
+      "title": "testttttttt",
+      "description": "hhhhhhhh",
+      "price": 1,
+      "rating": 5,
+      "thumbnail": "https://i5.walmartimages.com/seo/Pre-Owned-Apple-iPhone-X-256GB-Factory-Unlocked-Smartphone-Refurbished-Good_9b5ec8b2-9665-463b-adc5-64829ba72da6.1b496e5a8fcee76fdad69bae12b54745.jpeg"
+    },
+    {
+      "id": "3740064a-3939-45be-980c-69e866719b30",
+      "title": "testttttttt",
+      "description": "hhhhhhhh",
+      "price": 1,
+      "rating": 5,
+      "thumbnail": "https://i5.walmartimages.com/seo/Pre-Owned-Apple-iPhone-X-256GB-Factory-Unlocked-Smartphone-Refurbished-Good_9b5ec8b2-9665-463b-adc5-64829ba72da6.1b496e5a8fcee76fdad69bae12b54745.jpeg"
+    },
+    {
+      "id": "4b91d01a-c310-42ac-8bb7-43ba1adac202",
+      "title": "testttttttt",
+      "description": "hhhhhhhh",
+      "price": 1,
+      "rating": 5,
+      "thumbnail": "https://i5.walmartimages.com/seo/Pre-Owned-Apple-iPhone-X-256GB-Factory-Unlocked-Smartphone-Refurbished-Good_9b5ec8b2-9665-463b-adc5-64829ba72da6.1b496e5a8fcee76fdad69bae12b54745.jpeg"
+    }
+  ]
+}
